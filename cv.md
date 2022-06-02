@@ -1,9 +1,12 @@
-#Жильцов Роман Андреевич
+#Жильцов Роман Андреевич  
+<img src="/rsschool-cv/ph.jpeg" alt="drawing" width="160"/>
 
 ######Мужчина, 30 лет, родился 10 июля 1991
 
-**e-mail:**
-romanjhyltsou@gmail.com
+**Phone:** 89819718390
+**e-mail:** romanjhyltsou@gmail.com
+**discord:** romanjhyltsou#6635
+**Skype:** Saimon1775
 
 ---
 ##Высшее образование
@@ -69,6 +72,7 @@ www.tricolor.tv
 
 
 ##Опыт web-developer 
+
 *Мой путь в IT начался с веб-дизайна, т.к до этого я увлекался photoshop cs6 и знал его на хорошем уровне, поэтому мне показалось, что я быстрее войду в специальность. Но после прохождения 'Веб-дизайн 2.0' , многочисленных интенсивов на youtub (даже нарисовал 4 макета), понял, что это скучно и не моё.
 Я думаю, что это был полезный опыт и теперь смогу с легкостью взаимодействовать с веб-дизайнером в любом проекте и так же смогу вносить какие либо правки, если это потребуется.
 Программы, в которых я работал: Adobe photoshop CC, figma и подобные.
@@ -80,7 +84,7 @@ www.tricolor.tv
 
 **Мои навыки:** Adobe photoshop CC, figma, HTML (HTML5), CSS (CSS3), jQuery, SCSS, Flexbox, БЭМ, JS базовый, читаю на английском MDN web.
 
-**Мои не большие работы:**
+**Мои работы:**
 * www.romanjhyltsou.ru/Reduslim/ - форма обратной связи, её адаптив + select(js)
 
 * Жилой комплекс Melody:
@@ -98,10 +102,39 @@ www.romanjhyltsou.ru/melody/
 
 * www.romanjhyltsou.ru/ThisSiteLogo/#
 https://github.com/romanjhyltsou/ThisSiteLogo.git
-ThisSiteLogo- Gulp,Html,Scss,JS,БЭМ - mobile
+ThisSiteLogo- Gulp,Html,Scss,JS,BEM - mobile
 
 
 * www.romanjhyltsou.ru/Ирвас
 https://github.com/romanjhyltsou/Source.git
+
+
+
+**Навыки:**
+HTML5, CSS3,
+preprocessors SASS, BEM — A CSS Naming Convention, Flexbox,
+Mobile(media queries),
+JavaScript Basics
+Git, GitHub
+VS Code
+Adobe Photoshop,PSD, Sketch, Figma, Zeplin, Adobe XD
+Layout cross-browser, valid, adaptive, responsive, rubber
+
+
+**Пример код:**
+
+ `function killer (suspectInfo, dead) { `
+```for(let key in suspectInfo){
+      if(dead.every(item => suspectInfo[key].includes(item))){
+          return key;
+      }
+  }
+  
+}
+
+killer({'James': ['Jacob', 'Bill', 'Lucas'], 'Johnny': ['David', 'Kyle', 'Lucas'],
+'Peter': ['Lucy', 'Kyle']}, ['Lucas', 'Bill']); //, 'James');
+killer({'Brad': [], 'Megan': ['Ben', 'Kevin'], 'Finn': []}, ['Ben']); //, 'Megan'); */
+```
 
 
