@@ -101,28 +101,36 @@ Adobe Photoshop,PSD, Sketch, Figma, Zeplin, Adobe XD
 Layout cross-browser, valid, adaptive, responsive, rubber
 
 **my projects:**
-* www.romanjhyltsou.ru/Reduslim/ - feedback form and its adaptive layout + select(js)
+* www.romanjhyltsou.ru/Reduslim/ 
+  * Technology:feedback form and its adaptive layout + select(js)
 
 * Residential complex Melody:
-github: https://github.com/romanjhyltsou/melody.git
-www.romanjhyltsou.ru/melody/
-Technology: Html, css, JS
+  * www.romanjhyltsou.ru/melody/
+  * https://github.com/romanjhyltsou/melody.git
+  * Technology: Html, css, JS
 
 
 * www.romanjhyltsou.ru/porten/
-Technology: Html, css, JS, Mobile
+  * Technology: Html, css, JS, Mobile
 
 
 * www.romanjhyltsou.ru/theater/
-Technology: Html, css, JS, Mobile
+  * Technology: Html, css, JS, Mobile
 
-* www.romanjhyltsou.ru/ThisSiteLogo/#
-https://github.com/romanjhyltsou/ThisSiteLogo.git
-ThisSiteLogo- Gulp,Html,Scss,JS,BEM - mobile
+* ThisSiteLogo
+  * www.romanjhyltsou.ru/ThisSiteLogo/#
+  * https://github.com/romanjhyltsou/ThisSiteLogo.git
+  * Technology: Gulp,Html,Scss,JS,BEM - mobile
 
+* Sirius
+  * https://www.romanjhyltsou.ru/siriusSPB/
+  * https://github.com/romanjhyltsou/siriusSPB
+  * Technology: Gulp,Html,Scss,JS,BEM - mobile
 
 * www.romanjhyltsou.ru/Ирвас
-https://github.com/romanjhyltsou/Source.git
+  * https://github.com/romanjhyltsou/Source.git
+  * https://www.romanjhyltsou.ru/%d0%98%d1%80%d0%b2%d0%b0%d1%81/
+  * Technology: Gulp,webpack,Html,Scss,JS
 
 
 
