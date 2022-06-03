@@ -1,5 +1,5 @@
 #ZHiltsov Roman Andreevich 
-<img src="/rsschool-cv/ph.jpeg" alt="drawing" width="160"/>
+![Фото](photo.jpeg)
 
 ######Male, 30 years old, born July 10, 1991
 
