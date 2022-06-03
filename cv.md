@@ -1,7 +1,9 @@
-#ZHiltsov Roman Andreevich 
+# ZHiltsov Roman Andreevich 
+
+
 ![Фото](photo.jpeg)
 
-######Male, 30 years old, born July 10, 1991
+###### Male, 30 years old, born July 10, 1991
 
 **Phone:** 89819718390
 **e-mail:** romanjhyltsou@gmail.com
@@ -9,7 +11,7 @@
 **Skype:** Saimon1775
 
 ---
-##Higher education
+## Higher education
 
 **Vitebsk State University named after Masherov:** physical education teacher and sports coach ,physical therapy instructor. graduation year 2015 and study period 5 years
 
@@ -19,7 +21,7 @@
 **Driving experience:** Category B driving license
 
 ---
-##Work experience
+## Work experience
 **State educational institution «secondary school №2 city ​​of Orsha»**
 **Position:** physical education teacher, physical therapy instructor
 **Part-time work:** Boxing and kickboxing coach 
@@ -74,7 +76,7 @@ July 2020 - present, 2 years;
 * *Working with Microsoft Excel;*
 
 
-##Web developer experience 
+## Web developer experience 
 
 *My journey in IT started with web design
 because before that I was fond of Adobe Photoshop CS6 and knew it at a good level so it seemed to me that I would quickly enter the specialty.But after completing the 'Web Design 2.0' course, numerous intensives on YouTube (and even created 4 layouts), I realized that it was boring and not for me.
