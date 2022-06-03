@@ -6,8 +6,11 @@
 ###### Male, 30 years old, born July 10, 1991
 
 **Phone:** 89819718390
+
 **e-mail:** romanjhyltsou@gmail.com
+
 **discord:** romanjhyltsou#6635
+
 **Skype:** Saimon1775
 
 
@@ -16,14 +19,19 @@
 **Vitebsk State University named after Masherov:** physical education teacher and sports coach ,physical therapy instructor. graduation year 2015 and study period 5 years
 
 **Russian:** Native
+
 **Belorussian:** Native
+
 **English:** B1 Pre-Intermediate
+
 **Driving experience:** Category B driving license
 
 
 ## Work experience
 **State educational institution «secondary school №2 city ​​of Orsha»**
+
 **Position:** physical education teacher, physical therapy instructor
+
 **Part-time work:** Boxing and kickboxing coach 
 
 https://sh2.goroo-orsha.by/
@@ -45,6 +53,7 @@ August 2013 - June 2018, 4 years 11 months
 ---
 
 **Individual entrepreneur**
+
 **Position:** Boxing and kickboxing coach
 June 2018 — March 2020, 1 year 10 months
 
@@ -58,6 +67,7 @@ June 2018 — March 2020, 1 year 10 months
 ---
 
 **Tricolor TV**
+
 **Position:** Sales manager.
 
 www.tricolor.tv
