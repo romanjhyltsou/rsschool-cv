@@ -10,7 +10,7 @@
 **discord:** romanjhyltsou#6635
 **Skype:** Saimon1775
 
----
+
 ## Higher education
 
 **Vitebsk State University named after Masherov:** physical education teacher and sports coach ,physical therapy instructor. graduation year 2015 and study period 5 years
@@ -20,7 +20,7 @@
 **English:** B1 Pre-Intermediate
 **Driving experience:** Category B driving license
 
----
+
 ## Work experience
 **State educational institution «secondary school №2 city ​​of Orsha»**
 **Position:** physical education teacher, physical therapy instructor
