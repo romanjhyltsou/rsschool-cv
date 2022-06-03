@@ -1,7 +1,7 @@
-#Жильцов Роман Андреевич  
+#ZHiltsov Roman Andreevich 
 <img src="/rsschool-cv/ph.jpeg" alt="drawing" width="160"/>
 
-######Мужчина, 30 лет, родился 10 июля 1991
+######Male, 30 years old, born July 10, 1991
 
 **Phone:** 89819718390
 **e-mail:** romanjhyltsou@gmail.com
@@ -9,96 +9,110 @@
 **Skype:** Saimon1775
 
 ---
-##Высшее образование
+##Higher education
 
-**ВГУ им. Машерова:** Физической культура и спорт,инструктор лфк. г. в 2015. 5 лет
+**Vitebsk State University named after Masherov:** physical education teacher and sports coach ,physical therapy instructor. graduation year 2015 and study period 5 years
 
-**Русский:** Родной
-**Белорусский:** Родной
-**Английский:** B1 Pre-Intermediate
-**Опыт вождения:** Права категории B
+**Russian:** Native
+**Belorussian:** Native
+**English:** B1 Pre-Intermediate
+**Driving experience:** Category B driving license
 
 ---
-##Опыт работы 
-**Государственное учреждение образования «Средняя школа №2 г.Орши»**
-**Должность:** Учитель физической культуры, инструктор лфк
-**Работа по совместительству:** Тренер по боксу, кикбоксингу
+##Work experience
+**State educational institution «secondary school №2 city ​​of Orsha»**
+**Position:** physical education teacher, physical therapy instructor
+**Part-time work:** Boxing and kickboxing coach 
 
 https://sh2.goroo-orsha.by/
-Начал работать с 4 курса
-Август 2013 — июнь 2018 4 года 11 месяцев
+Started working from the 4th course
+August 2013 - June 2018, 4 years 11 months
 
-**Обязанности:**
-* *Обеспечивание уровня подготовки обучающихся, соответствующим требованиям государственного образовательного стандарта;*
-* *Планирование и разработка, организации учебных, факультативных, внеурочных занятий по физическому воспитанию;*
-* *Осуществление набора учащихся в секцию бокса и кикбоксинга;*
-* *Подготовка и организация участия в спортивных соревнованиях;*
-* *Осуществление контроля за состояние и эксплуатацию имеющихся спортивных сооружений и помещений, соблюдение правил техники безопасности, за хранение и правильное использование спортивной формы, инвентаря и оборудования;*
-* *Осуществление обучения и воспитания обучающихся с учетом специфики преподаваемого предмета, обеспечивая во время занятий надлежащий порядок и дисциплину;*
-* *Выполнение правил и норм охраны труда, техники безопасности и противопожарной защиты, обеспечивая охрану жизни и здоровья обучающихся в период образовательного процесса;*
-* *Ведение учебной документации;*
-* *Участие в работе педагогического совета школы и совещаниях;*
-
----
-
-**Индивидуальный предприниматель**
-**Должность:** Тренер по боксу, кикбоксингу
-Июнь 2018 — март 2020, 1 год 10 месяцев
-
-**Обязанности:**
-* *Проведение групповых и индивидуальных занятий для детей и взрослых по боксу и кикбоксингу. Изложение теоретического и практического материала по ОСТ (основы спортивной тренировки ) и методике единоборств, проверка и оценка уровня занятий;*
-* *Провидение обучающих групповых игры и спаррингов;*
-* *ОФП, гимнастика, силовая подготовка;*
-* *Психологическая подготовка;*
+**Job responsibilities:**
+* *Ensuring the level of training of students that meets the requirements of the state educational standard;*
+* *Planning and development, organization of educational, optional, extracurricular activities in physical education;*
+* *Enrollment of students in the boxing and kickboxing section;*
+* *Preparation and organization of participation in sports competitions;*
+* *Monitoring the condition and operation of existing sports facilities and premises, compliance with safety regulations, storage and proper use of sports uniforms, inventory and equipment;*
+* *The implementation of training and education of students, taking into account the specifics of the subject being taught, ensuring proper order and discipline during classes;*
+* *Compliance with the rules and norms of labor protection, safety and fire protection, ensuring the protection of life and health of students during the educational process;*
+* *Maintaining training documentation;*
+* *Participation in the work of the pedagogical council of the school and meetings;*
+* *Keeping an electronic journal at school;*
 
 ---
 
-**Триколор ТВ**
-**Должность:** Менеджер по продажам
+**Individual entrepreneur**
+**Position:** Boxing and kickboxing coach
+June 2018 — March 2020, 1 year 10 months
+
+**Job responsibilities:**
+* *Conducting group and individual lessons for children and adults in boxing and kickboxing.*
+* *Presentation of theoretical and practical material on BST (basics of sports training) and the methodology of martial arts, checking and evaluating the level of training;*
+* *Providing training group games and sparring;*
+* *GPT (general physical training), gymnastics, strength training;*
+* *Psychological preparation of athletes;*
+
+---
+
+**Tricolor TV**
+**Position:** Sales manager.
 
 www.tricolor.tv
-Июль 2020 — по настоящее время , 2 года;
+July 2020 - present, 2 years;
 
-**Обязанности:**
-* *Оформление торговой точки;*
-* *Концепция выкладки товаров;*
-* *Контроль за размещением и обновлением рекламных материалов;*
-* *Приём товара;*
-* *Оформление договоров;*
-* *Обработка входящих звонков;*
-* *Обработка заказов интернет магазина;*
-* *Консультация клиентов;*
-* *Работа с кассой;*
+**Job responsibilities:**
+* *Store preparation;*
+* *Product display concept;*
+* *Control over the placement and updating of promotional materials;*
+* *Reception of goods;*
+* *Drafting contracts with clients;*
+* *Handling incoming calls;*
+* *Online store order processing;*
+* *Counseling clients;*
+* *Work with cash desk;*
+* *Working with Microsoft Excel;*
 
 
-##Опыт web-developer 
+##Web developer experience 
 
-*Мой путь в IT начался с веб-дизайна, т.к до этого я увлекался photoshop cs6 и знал его на хорошем уровне, поэтому мне показалось, что я быстрее войду в специальность. Но после прохождения 'Веб-дизайн 2.0' , многочисленных интенсивов на youtub (даже нарисовал 4 макета), понял, что это скучно и не моё.
-Я думаю, что это был полезный опыт и теперь смогу с легкостью взаимодействовать с веб-дизайнером в любом проекте и так же смогу вносить какие либо правки, если это потребуется.
-Программы, в которых я работал: Adobe photoshop CC, figma и подобные.
-После моей истории с веб-дизайном я четко решил, что хочу заниматься front-end разработкой и по своей неопытности думал, что в нее входит HTML, CSS, адаптивная верстка и jQuery плагины, поэтому первый курс который я прошел на openedu.ru- это "Веб-программирование", в котором только изучали HTML и CSS. Далее начал проходить курсы от автора Вадим Прокопчук “Верстка сайтов от 0 до 1”, "Верстка интернет магазина с нуля” и там я применял в реальном проекте: БЭМ, Gulp, Git, препроцессоры, тем самым поняв, что front-end разработка намного шире.*
+*My journey in IT started with web design
+because before that I was fond of Adobe Photoshop CS6 and knew it at a good level so it seemed to me that I would quickly enter the specialty.But after completing the 'Web Design 2.0' course, numerous intensives on YouTube (and even created 4 layouts), I realized that it was boring and not for me.
+I think it was a rewarding experience and now I can easily interact with a web designer on any project and also be able to make any edits if needed.
+Programs in which I worked: Adobe photoshop CC, figma and similar.
+After my history with web design, I clearly decided that I wanted to do front-end development and due to my inexperience I thought that it included HTML, CSS, responsive layout and jQuery plugins, so the first course I took on openedu.ru was "Web programming", which only studied HTML and CSS. Then I started taking courses from the author Vadim Prokopchuk “Website layout from 0 to 1”, “Website layout from scratch” and there I used in a real project: BEM, Gulp, Git, preprocessors, js, therefore realizing that front-end development is much wider.* 
+**Now my biggest goal and dream is to become a good front-end developer and later a full-stack developer.**
 
-**Сертификат об окончании курса JavaScript:** v.2.0 https://itgid.info/certificate/view?Certificate%5Buid%5D=d7q61n77qn
+**Course Completion Certificate JavaScript:** v.2.0 https://itgid.info/certificate/view?Certificate%5Buid%5D=d7q61n77qn
 
-**Пройдя по адресу, вы сможете увидеть мой первый проект по верстке:** www.romanjhyltsou.ru, с применением плагинов jQuery и адаптивной версткой, которую реализовал с помощью медиа запросов.
+**By clicking on the address, you can see my first layout project:** www.romanjhyltsou.ru, 
+using jQuery plugins and adaptive layout, which I implemented using media queries.
 
-**Мои навыки:** Adobe photoshop CC, figma, HTML (HTML5), CSS (CSS3), jQuery, SCSS, Flexbox, БЭМ, JS базовый, читаю на английском MDN web.
+**Skills:**
+HTML5, CSS3,
+preprocessors SASS, BEM — A CSS Naming Convention, Flexbox,
+Mobile(media queries),
+JavaScript Basics, jQuery plugins and other plugins like Swiper js,
+GitHub
+VS Code
+Adobe Photoshop,PSD, Sketch, Figma, Zeplin, Adobe XD
+Layout cross-browser, valid, adaptive, responsive, rubber
 
-**Мои работы:**
-* www.romanjhyltsou.ru/Reduslim/ - форма обратной связи, её адаптив + select(js)
+**my projects:**
+* www.romanjhyltsou.ru/Reduslim/ - feedback form and its adaptive layout + select(js)
 
-* Жилой комплекс Melody:
+* Residential complex Melody:
 github: https://github.com/romanjhyltsou/melody.git
 www.romanjhyltsou.ru/melody/
-Технологии: Html, css, JS
+Technology: Html, css, JS
 
 
 * www.romanjhyltsou.ru/porten/
-Технологии: Html, css, JS, Mobile
+Technology: Html, css, JS, Mobile
 
 
 * www.romanjhyltsou.ru/theater/
-Технологии: Html, css, JS, Mobile
+Technology: Html, css, JS, Mobile
 
 * www.romanjhyltsou.ru/ThisSiteLogo/#
 https://github.com/romanjhyltsou/ThisSiteLogo.git
@@ -110,18 +124,7 @@ https://github.com/romanjhyltsou/Source.git
 
 
 
-**Навыки:**
-HTML5, CSS3,
-preprocessors SASS, BEM — A CSS Naming Convention, Flexbox,
-Mobile(media queries),
-JavaScript Basics
-Git, GitHub
-VS Code
-Adobe Photoshop,PSD, Sketch, Figma, Zeplin, Adobe XD
-Layout cross-browser, valid, adaptive, responsive, rubber
-
-
-**Пример код:**
+**Sample code from codewars:**
 
  `function killer (suspectInfo, dead) { `
 ```for(let key in suspectInfo){
