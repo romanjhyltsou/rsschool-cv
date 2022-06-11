@@ -34,28 +34,32 @@ body {
   }
 
 .container{
-    max-width: 1200px;
+    max-width: 1400px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-div{
-    background-color: rgb(240, 240, 167);
+.nav__menu{
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    position: absolute;
+    display: flex;
+    max-width: 700px;
+    left:50%;
+    top:30px;
+    transform:translate(-50%, -50%);
+    color:#282828;
+}
+.nav__menu-item + .nav__menu-item {
+    margin-left: 68px;
+}
+.nav__menu-item:hover{
+    font-family: 'Montserrat-Regular';
+    color:#f1cb59;
+    cursor: pointer;
 }
 
-  
-  
-.Lorem_ipsum_dolor_sit_amet__consectetur_adipisi {
-    font-size: 50px;
-    font-family: "Roboto";
-    color: rgb(37, 37, 37);
-    line-height: 1.333;
-    text-align: left;
-    position: absolute;
-    left: 201.703px;
-    top: 1429.894px;
-    width: 1212px;
-    height: 248px;
-    z-index: 47;
-  }
+.container-1{
+    padding-top: 70px;
+}
   
