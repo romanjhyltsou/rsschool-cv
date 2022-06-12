@@ -1,7 +1,7 @@
 # ZHiltsov Roman Andreevich 
 
 
-![Фото](photo.jpeg)
+![Фото](img/photo.jpeg)
 
 ###### Male, 30 years old, born July 10, 1991
 

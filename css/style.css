@@ -62,7 +62,7 @@ body {
     justify-content: space-between;
 }
 .main{
-    height: 600px;
+    min-height: 600px;
     background-color:#f7f8ff;
     max-width: 900px;
     width:100%;
@@ -138,4 +138,31 @@ body {
 .photo__png-item{
     width: 300px;
 }
+.experience .experience__text{
+    margin-bottom: 39px;
+}
+.profile__title,
+.experience__title{
+    font-size: 22px;
+    font-family: 'Poppins-Bold';
+    color: rgb(241, 203, 89);
+    text-transform: uppercase;
+    margin-top: 45px;
+    margin-bottom: 28px;
+}
+.experience__discr-item{
+    font-size: 15px;
+    font-family: 'Roboto-Regular';
+    color: rgb(37, 37, 37);
+    margin-bottom: 16px;
+}
+.profile__text,
+.experience__text{
+    font-size: 15px;
+    font-family: 'Roboto-Light';
+    color: rgb(37, 37, 37);
+}
+  
+  
+  
   
