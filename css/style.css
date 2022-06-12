@@ -34,8 +34,7 @@ body {
   }
 
 .container{
-    max-width: 1400px;
-    padding: 0 15px;
+    max-width: 1320px;
     margin: 0 auto;
 }
 
@@ -58,8 +57,85 @@ body {
     color:#f1cb59;
     cursor: pointer;
 }
-
-.container-1{
-    padding-top: 70px;
+.wrapper .container{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    height: 600px;
+    background-color:#f7f8ff;
+    max-width: 900px;
+    width:100%;
+    padding-top: 90px;
+}
+.main__wraper{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main__title{
+    font-size: 45px; /* 30%  макет 100% 150px*/
+    font-family: 'Montserrat-Bold';
+    color: rgb(54, 54, 54);
+    text-transform: uppercase;
+}
+.main__title span{
+    color: #f1cb59;
+}
+.main__title-profession{
+    font-size: 22px;
+    font-family: 'Montserrat-Regular';
+    color: rgb(54, 54, 54);
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+.contacts__wraper{
+    display: flex;
+    margin-top: 64px;
+}
+.contacts__img img{
+    height: 100px;
+}
+.contacts__address{
+    font-size: 15px;
+    font-family: 'Roboto-Regular';
+    color: rgb(112, 112, 112);
+    padding: 14px 16px;
+}
+.contacts__address-item + .contacts__address-item{
+    margin: 10px 0;
+}
+.contacts__address-item{
+    position: relative;
+}
+.contacts__address-phone a::before,
+.contacts__address-gmail a::before,
+.contacts__address-home a::before{
+    position: absolute;
+    content: '';
+    left: -40px;
+    height: 14px;
+    width: 15px;
+}
+.contacts__address-phone a::before{
+    background-image: url('../img/icon/phone.svg');
+}
+.contacts__address-gmail a::before{
+    background-image: url('../img/icon/gmail.svg');
+}
+.contacts__address-home a::before{
+    background-image: url('../img/icon/home.svg');
+}
+.aside{
+    max-width: 500px;
+    width:100%;
+    padding-top: 90px;
+}
+.photo{
+    width: 300px;
+    margin: 0 auto;
+}
+.photo__png-item{
+    width: 300px;
 }
   
