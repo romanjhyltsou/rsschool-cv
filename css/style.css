@@ -43,14 +43,14 @@ body {
     font-size: 14px;
     position: absolute;
     display: flex;
-    max-width: 700px;
+    max-width: 780px;
     left:50%;
     top:30px;
     transform:translate(-50%, -50%);
     color:#282828;
 }
 .nav__menu-item + .nav__menu-item {
-    margin-left: 68px;
+    margin-left: 50px;
 }
 .nav__menu-item:hover{
     font-family: 'Montserrat-Regular';
@@ -126,23 +126,14 @@ body {
 .contacts__address-home a::before{
     background-image: url('../img/icon/home.svg');
 }
-.aside{
-    max-width: 500px;
-    width:100%;
-    padding-top: 90px;
-}
-.photo{
-    width: 300px;
-    margin: 0 auto;
-}
-.photo__png-item{
-    width: 300px;
-}
+
 .experience .experience__text{
     margin-bottom: 39px;
 }
 .profile__title,
-.experience__title{
+.experience__title,
+.sample-code__title,
+.project__title{
     font-size: 22px;
     font-family: 'Poppins-Bold';
     color: rgb(241, 203, 89);
@@ -154,15 +145,118 @@ body {
     font-size: 15px;
     font-family: 'Roboto-Regular';
     color: rgb(37, 37, 37);
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 .profile__text,
 .experience__text{
     font-size: 15px;
     font-family: 'Roboto-Light';
+    margin-top: 20px;
+}
+.experience__text li span{
+    color: rgb(37, 37, 37);
+}
+.experience__text li{
+    list-style-type: disc;
+    color:#f1cb59;
+}
+.experience__discr-item a:hover{
+    color:#f1cb59;
+}
+.sample-code pre{
+    background-color:#efeeea;
+    border-radius: 10px;
+}
+.project__wraper{
+    display: flex;
+    justify-content: space-between;
+}
+.projects{
+    font-size: 15px;
+    font-family: 'Roboto-Light';
+    border-right: 1px solid #f1cb59;
+}
+.projects,
+.certificates{
+    font-size: 15px;
+    font-family: 'Roboto-Light';
+    max-width: 215px;
+    width: 100%; 
+    
+}
+.projects__inner li,
+.certificates__inner li{
+    margin-bottom: 10px;
+}
+.projects__inner li a,
+.certificates__inner li a{
+    display: block;
+    margin-bottom: 2px;
+}
+.certificates__inner li span:hover,
+.projects__inner li span:hover{
+    color:#f1cb59;
+}
+
+.certificates__inner li span,
+.projects__inner li span{
+    color: rgb(37, 37, 37);
+}
+.certificates__inner li,
+.projects__inner li{
+    list-style-type: disc;
+    color:#f1cb59;
+}
+/* .aside  start*/
+.aside{
+    max-width: 500px;
+    width:100%;
+    padding-top: 90px;
+}
+.photo{
+    width: 280px;
+    margin: 0 auto;
+}
+.photo__png-item{
+    width: 270px;
+}
+.aside__wraper{
+    max-width: 244px;
+    width: 100%;
+    margin: 0 auto;
+}
+.education__title,
+.language__title,
+.skills__title{
+    font-size: 22px;
+    font-family: 'Poppins-Bold';
+    color: rgb(241, 203, 89);
+    text-transform: uppercase;
+    margin-top: 24px;
+    margin-bottom: 28px;
+}
+.education__discr{
+    font-size: 14px;
+    font-family: 'Roboto-Regular';
+    color: rgb(37, 37, 37);
+}
+.education__discr-item{
+    margin-bottom: 8px;
+}
+.language__list li,
+.skills__list li{
+    font-size: 15px;
+    font-family: 'Roboto-Medium';
+    list-style-type: disc;
+    color:#f1cb59;
+    margin-bottom: 4px;
+}
+.language__list li span,
+.skills__list li span{
     color: rgb(37, 37, 37);
 }
   
+/* .aside  end*/
   
   
   
