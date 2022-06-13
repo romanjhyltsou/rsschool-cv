@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/smothScroll.js" defer></script>
     <title>CV</title>
 </head>
 <body>
@@ -150,28 +152,6 @@
                     </ul>
                 </article>
 
-                <article id="sampleCode" class="sample-code">
-                    <h2 class="sample-code__title">sample code</h2>
-                    <pre>
-                        <code>
-                            
-       function killer (suspectInfo, dead) {
-
-           if(dead.every(item => suspectInfo[key].includes(item))){
-               return key;
-           }
-       }
-                          
-       killer({'James': ['Jacob', 'Bill', 'Lucas'],
-       'Johnny': ['David', 'Kyle', 'Lucas'],
-       'Peter': ['Lucy', 'Kyle']},
-       ['Lucas', 'Bill']); //, 'James');
-       killer({'Brad': [], 'Megan': ['Ben', 'Kevin'],
-       'Finn': []}, ['Ben']); //, 'Megan'); */
-                        </code>
-                    </pre>
-                </article>
-
                 <article id="projectszone" class="project">
                     <h2 class="project__title">my projects and certificates</h2>
                     <div class="project__wraper">
@@ -212,6 +192,28 @@
                             </ul>
                         </div>
                     </div>
+                </article>
+
+                <article id="sampleCode" class="sample-code">
+                    <h2 class="sample-code__title">sample code</h2>
+                    <pre>
+                        <code>
+                            
+       function killer (suspectInfo, dead) {
+
+           if(dead.every(item => suspectInfo[key].includes(item))){
+               return key;
+           }
+       }
+                          
+       killer({'James': ['Jacob', 'Bill', 'Lucas'],
+       'Johnny': ['David', 'Kyle', 'Lucas'],
+       'Peter': ['Lucy', 'Kyle']},
+       ['Lucas', 'Bill']); //, 'James');
+       killer({'Brad': [], 'Megan': ['Ben', 'Kevin'],
+       'Finn': []}, ['Ben']); //, 'Megan'); */
+                        </code>
+                    </pre>
                 </article>
 
             </div>
@@ -264,6 +266,22 @@
 
         </div>
     </div>
-
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__git">
+                <p class="footer__date">
+                    © 2022
+                </p>
+                <p class="footer__github">
+                    <a href="https://github.com/romanjhyltsou">romanjhyltsou</a>
+                </p>
+            </div>
+            <div class="footer__rsschool">
+                <a href="https://rs.school/js/">
+                    <img class="footer__rsschool-img" src="img/RsSchool.png" alt="RsSchool">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

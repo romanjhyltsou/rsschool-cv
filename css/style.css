@@ -29,12 +29,12 @@ body {
     font-size: 12px;
     min-height: 320px;
     color: rgb(37, 37, 37);
-    max-width: 1920px;
+    max-width: 1360px;
     margin: 0 auto;
   }
 
 .container{
-    max-width: 1320px;
+    max-width: 1360px;
     margin: 0 auto;
 }
 
@@ -166,6 +166,7 @@ body {
 .sample-code pre{
     background-color:#efeeea;
     border-radius: 10px;
+    margin-bottom: 60px;
 }
 .project__wraper{
     display: flex;
@@ -257,6 +258,31 @@ body {
 }
   
 /* .aside  end*/
+
+/* .footer  start*/
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ffefbe;
+    margin-left: 0;
+}
+.footer__git{
+    font-size: 13px;
+    font-family: 'Roboto-Medium';
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.footer__github:hover{
+    color:#f1cb59;
+}
+.footer__github{
+    margin-left: 10px;
+}
+.footer__rsschool-img{
+    width: 100px;
+}
+/* .footer  end*/
   
   
   
