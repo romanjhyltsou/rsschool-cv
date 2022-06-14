@@ -74,7 +74,7 @@ body {
     margin: 0 auto;
 }
 .main__title{
-    font-size: 45px; /* 30%  макет 100% 150px*/
+    font-size: 45px; /* 30%  макет 100% это 150px*/
     font-family: 'Montserrat-Bold';
     color: rgb(54, 54, 54);
     text-transform: uppercase;
