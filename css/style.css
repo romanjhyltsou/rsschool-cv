@@ -61,6 +61,16 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.btn-lan{
+    margin-left: 20px;
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    background:#f7f8ff;
+    padding: 1px 20px;
+    width: 100px;
+    border: 1px solid #f5e6b8;
+    cursor: pointer;
+}
 .main{
     min-height: 600px;
     background-color:#f7f8ff;
