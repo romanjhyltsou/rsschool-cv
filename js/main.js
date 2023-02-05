@@ -1,10 +1,6 @@
-const btnLan = document.querySelector('.btn-lan');
+import lang from "./lang.js";
+window.addEventListener('DOMContentLoaded', () => {
+    "use strict";
+    lang();
 
-btnLan.addEventListener('click', ()=> {
-    if(btnLan.innerHTML === 'EN'){
-        btnLan.innerHTML = 'RU';
-    }else{
-        btnLan.innerHTML = 'EN';
-    }
-    
 });
