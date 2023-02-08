@@ -16,7 +16,17 @@
     .main__title{
        font-size: 40px;
     }
-   }
+    .photo__png-item {
+        max-width: 237px;
+        width: 100%;
+     }
+     .profile__title, 
+     .experience__title, 
+     .sample-code__title, 
+     .project__title {
+        margin-top: 37px;
+    }
+}
 
 @media (max-width:883px) {
  .nav__menu{
@@ -25,6 +35,12 @@
  .main__title{
     font-size: 36px;
  }
+ .profile__title, 
+ .experience__title, 
+ .sample-code__title, 
+ .project__title {
+    margin-top: 42px;
+}
 }
 
 
@@ -47,6 +63,9 @@
     .main__title-profession {
         font-size: 16px;
     }
+    .photo__png-item {
+        max-width: 221px;
+    }
 }
 
 @media (max-width:763px) {
@@ -54,14 +73,33 @@
        max-width: 600px;
        font-size: 11px;
     }
+/*     .photo__png-item {
+        max-width: 224px;
+        width: 100%;
+    } */
     .photo__png {
         max-width: 253px;
         width: 100%;
         margin: 0 auto;
     }
+
 }
 
 @media (max-width:630px) {
+    .main {
+        padding-top: 60px;
+        margin-right: 28px;
+    }
+    .aside {
+        padding-top: 60px;
+    }
+    .photo {
+        margin: 0;
+        margin-left: 16px;
+    }
+    .nav__menu {
+        top: 20px;
+    }
     .header__burger{
         display: block;
         position: relative;
@@ -90,19 +128,53 @@
         align-items: end;
         border-radius: 6px;
     }
-    .photo{
-        max-width: 280px;
+    .photo {
+        max-width: 214px;
         width: 100%;
     }
     .photo__png-item {
-        max-width: 253px;
+        max-width: 209px;
         width: 100%;
     }
     .contacts__wraper {
         margin-top: 30px;
     }
+    .profile__title, 
+    .experience__title, 
+    .sample-code__title, 
+    .project__title {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .education__title, 
+    .language__title, 
+    .skills__title {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .profile__text, 
+    .experience__text {
+        font-size: 12px;
+    }
+    .education__discr,
+    .language__list li, 
+    .skills__list li {
+        font-size: 12px;
+    }
 }
 @media (max-width:606px) {
+    .main {
+        margin-right: 28px;
+    }
+    .aside {
+        padding-right: 20px;
+    }
+    .photo {
+        margin-left: 0;
+    }
+    .aside__wraper {
+        margin: 0;
+    }
     .photo__png {
         margin: 0 10px;
     }
@@ -122,35 +194,70 @@
         max-width: 181px;
         width: 100%;
     }
+    .profile__title, 
+    .experience__title, 
+    .sample-code__title, 
+    .project__title {
+        margin-top: 23px;
+    }
+    .education__discr, 
+    .skills__list {
+        width: 100%;
+    }
 }
-
-@media (max-width:500px) {
+@media (max-width:512px) {
     .main {
         max-width: 250px;
     }
-    .contacts__address {
-        font-size: 10px;
+    .photo__png-item {
+        max-width: 168px;
     }
     .contacts__img img {
-        height: 84px;
+        height: 88px;
     }
     .contacts__address-phone a::before, 
     .contacts__address-gmail a::before, 
     .contacts__address-home a::before {
-        left: -38px;
+        top: -3px;
+        left: -39px;
+    }
+    .profile__title, 
+    .experience__title, 
+    .sample-code__title, 
+    .project__title {
+        margin-top: 30px;
+    }
+    .main__title {
+        font-size: 18px;
+    }
+    .contacts__address {
+        font-size: 10px;
+    }
+    .profile__title, 
+    .experience__title, 
+    .sample-code__title, 
+    .project__title {
+        font-size: 18px;
+        margin-bottom: 14px;
+    }
+    .education__title, 
+    .language__title, 
+    .skills__title {
+        font-size: 18px;
+        margin-bottom: 14px;
     }
 }
 
 @media (max-width:472px) {
     .aside {
-        padding-top: 68px;
+        padding-top: 62px;
     }
     .main {
-        padding-top: 68px;
+        padding-top: 62px;
         padding-right: 10px;
     }
     .photo {
-        max-width: 181px;
+        max-width: 131px;
     }
     .photo__png {
         max-width: 130px;
@@ -165,17 +272,52 @@
         display: flex;
         margin-top: 20px;
     }
+    .contacts__img img {
+        height: 72px;
+    }
+    .contacts__address-phone a::before, 
+    .contacts__address-gmail a::before, 
+    .contacts__address-home a::before {
+        top: -1px;
+        left: -36px;
+    }
+    .contacts__address {
+        padding: 7px 16px 7px 16px;
+    }
+    .profile__title, 
+    .experience__title, 
+    .sample-code__title, 
+    .project__title {
+        margin-top: 22px;
+    }
 }
-
+@media (max-width:388px) {
+    .photo {
+        max-width: 116px;
+    }
+    .profile__title, 
+    .experience__title, 
+    .sample-code__title, 
+    .project__title {
+        margin-top: 8px;
+    }
+    .main__title {
+        font-size: 15px;
+    }
+}
 @media (max-width:370px) {
     .main {
         max-width: 190px;
+        margin-right: 24px;
     }
     .main__wraper {
-        padding-left: 20px;
+        padding-left: 10px;
+    }
+    .aside {
+        padding-right: 10px;
     }
     .btn-lan {
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .btn-lan {
         width: 40px;
@@ -187,21 +329,42 @@
         width: 24px;
     }
     .contacts__address {
-        padding: 14px 10px;
+        padding: 10px 10px 0 10px;
+        font-weight: bold;
     }
     .contacts__address-phone a::before, 
     .contacts__address-gmail a::before, 
     .contacts__address-home a::before {
-        left: -32px;
+        left: -30px;
+        top: -2px;
+    }
+    .contacts__wraper {
+        margin-top: 17px;
     }
     .photo__png-item {
         max-width: 110px;
     }
     .photo__png {
-        max-width: 105px;
+        max-width: 115px;
     }
     .contacts__address {
         font-size: 9px;
+    }
+    .profile__title, 
+    .experience__title, 
+    .sample-code__title, 
+    .project__title {
+        font-size: 15px;
+    }
+    .education__title, 
+    .language__title, 
+    .skills__title {
+        font-size: 15px;
+    }
+    .education__discr, 
+    .language__list li, 
+    .skills__list li {
+        font-size: 11px;
     }
 
 }

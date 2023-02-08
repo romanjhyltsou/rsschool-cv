@@ -229,7 +229,8 @@ body {
     margin: 0 auto;
 }
 .photo__png-item{
-    width: 253px;
+    max-width: 253px;
+    width: 100%;
 }
 .aside__wraper{
     max-width: 244px;
