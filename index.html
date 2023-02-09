@@ -7,17 +7,21 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/media.css">
+    <script src="js/main.js" type="module" defer></script>
     <script src="js/smothScroll.js" defer></script>
     <title>CV</title>
 </head>
 <body>
     <header class="header">
         <nav class="nav">
-            <div class="container">
+            <div class="container container-nav">
                 <ul class="nav__menu">
+                    <li class="btn-lan">
+                        EN
+                    </li>
                     <li class="nav__menu-item">
-                        <a class="nav__menu-link" href="#profile">Profile</a>
+                        <a class="nav__menu-link" href="#profile">aboutMe</a>
                     </li>
                     <li class="nav__menu-item">
                         <a class="nav__menu-link" href="#experience">Experience</a>
@@ -29,7 +33,7 @@
                         <a class="nav__menu-link" href="#education">Education</a>
                     </li>
                     <li class="nav__menu-item">
-                        <a class="nav__menu-link" href="#language">language</a>
+                        <a class="nav__menu-link" href="#language">languages</a>
                     </li>
                     <li class="nav__menu-item">
                         <a class="nav__menu-link" href="#skills">Skills</a>
@@ -37,7 +41,39 @@
                     <li class="nav__menu-item">
                         <a class="nav__menu-link" href="#projectszone">ProjectsZone</a>
                     </li>
+                    <ul class="header__burger">
+                        <li class="header__burger-line"></li>
+                        <li class="header__burger-line"></li>
+                        <li class="header__burger-line"></li>
+                        <ul class="nav__menu nav__menu-mob">
+<!--                             <li class="nav-mob__close">
+                                <img class="nav-mob__close-img" src="img/icon/close-mob-nav.svg" alt="close">
+                            </li> -->
+                            <li class="nav__menu-item nav__item-mob">
+                                <a href="#profile">aboutMe</a>
+                            </li>
+                            <li class="nav__menu-item nav__item-mob">
+                                <a href="#experience">Experience</a>
+                            </li>
+                            <li class="nav__menu-item nav__item-mob">
+                                <a href="#sampleCode">SampleCode</a>
+                            </li>
+                            <li class="nav__menu-item nav__item-mob">
+                                <a href="#education">Education</a>
+                            </li>
+                            <li  class="nav__menu-item nav__item-mob">
+                                <a href="#language">languages</a>
+                            </li>
+                            <li class="nav__menu-item nav__item-mob">
+                                <a href="#skills">Skills</a>
+                            </li>
+                            <li class="nav__menu-item nav__item-mob">
+                                <a href="#projectszone">ProjectsZone</a>
+                            </li>
+                        </ul>
+                    </ul>
                 </ul>
+
             </div>
         </nav>
     </header>
@@ -46,7 +82,7 @@
         <main class="main">
             <div class="main__wraper">
                 <h1 class="main__title">Roman <span>Zhiltsov</span></h1>
-                <h2 class="main__title-profession">Web Developer</h2>
+                <p class="main__title-profession">front-end developer</p>
                 <address class="contacts">
                     <div class="contacts__wraper">
                         <div class="contacts__img">
@@ -60,80 +96,72 @@
                                 <a href="mailto:romanjhyltsou@gmail.com">romanjhyltsou@gmail.com</a>
                             </li>
                             <li class="contacts__address-item contacts__address-home">
-                                <a href="https://clck.ru/qRqCM">St.Petersburg</a>
+                                <a  href="https://clck.ru/qRqCM">St.Petersburg</a>
                             </li>
                         </ul>
                     </div>
                 </address>
                 <article id="profile" class="profile">
-                    <h2 class="profile__title">profile</h2>
+                    <h2 class="profile__title">ABOUT ME</h2>
                     <p class="profile__text">
-                        My journey in IT started with web design because before that
-                        I was fond of Adobe Photoshop CS6 and knew it at a good level so it seemed to me that I would quickly enter the specialty.
-                        But after completing the 'Web Design 2.0' course, numerous intensives on YouTube (and even created 4 layouts),
+                        Hello! My journey in IT started with web design, as 
+                        I had previously been interested in photoshop CS6 and had a good level of knowledge of it, 
+                        so I thought I would quickly get into the specialty. 
+                        But after completing "Web Design 2.0" and numerous intensives on YouTube (even drawing 4 layouts), 
                         I realized that it was boring and not for me.
-                        I think it was a rewarding experience and now
-                        I can easily interact with a web designer on any project and also be able to make any edits if needed.
-                        Programs in which I worked: Adobe photoshop CC, figma and similar. After my history with web design,
-                        I clearly decided that I wanted to do front-end development and due to my inexperience
-                        I thought that it included HTML, CSS, responsive layout and jQuery plugins, so the first course
-                        I took on openedu.ru was "Web programming", which only studied HTML and CSS.
-                        Then I started taking courses from the author Vadim Prokopchuk “Website layout from 0 to 1”, “Website layout from scratch” and there
-                        I used in a real project: BEM, Gulp, Git, preprocessors, js, therefore realizing that front-end development is much wider.
-                        <b>Now my biggest goal and dream is to become a good front-end developer and later a full-stack developer.</b>
+                        I think it was a valuable experience and now I will be able to interact with a web designer in 
+                        any project easily and also be able to make any edits if necessary.
+                        Programs I have worked with: Adobe photoshop CC, figma, and similar.
+                        After my experience with web design, I clearly decided that 
+                        I wanted to work in front-end development and due to my inexperience 
+                        I thought that it included HTML, CSS, responsive design, and jQuery plugins, 
+                        so the first course I took on openedu.ru was "Web Programming", 
+                        where I only studied HTML and CSS. Then I started taking courses from the author 
+                        Vadim Prokopchuk "Layout of sites from 0 to 1", "Layout of an online store from scratch" and there 
+                        I applied in a real project: BEM, Gulp, Git, preprocessors, 
+                        thus realizing that front-end development is much wider.
+                        <b >My current primary goal and aspiration is to become a 
+                           skilled front-end developer and eventually a full-stack developer.</b>
                     </p>
                 </article>
-                <article id="experience" class="experience">
+                <!-- <article id="experience" class="experience">
                     <h2 class="experience__title">experience</h2>
                     <div class="experience__discr">
-                        <h3 class="experience__discr-item">Position: physical education teacher, physical therapy instructor</h3>
-                        <h3 class="experience__discr-item">Part-time work: Boxing and kickboxing coach</h3>
-                        <h3 class="experience__discr-item">State educational institution «secondary school №2» /
-                            Vitebsk region city of Orsha</h3>
-                        <h3 class="experience__discr-item">Started working from the 4th course August 2013 - June 2018, 4 years 11 months</h3>
-                        <h3 class="experience__discr-item">Web-site:<a href="https://sh2.goroo-orsha.by/"> secondary school №2</a></h3>
+                        <h3 class="experience__discr-item experience__manag">Position: Sales manager</h3>
+                        <h3 class="experience__discr-item experience__manag">Tricolor TV/ St. Petersburg</h3>
+                        <h3 class="experience__discr-item experience__manag">June 2018 - July 2020, 2 years</h3>
+                        <h3 class="experience__discr-item experience__manag">Web-site: <a href="https://sh2.goroo-orsha.by/"> www.tricolor.tv</a></h3>
                     </div>
                     <ul class="experience__text">
-                        <li><span>Ensuring the level of training of students that meets the requirements of the state educational standard;</span></li>
-                        <li><span>Planning and development, organization of educational, optional, extracurricular activities in physical education;</span></li>
-                        <li><span>Enrollment of students in the boxing and kickboxing section;</span></li>
-                        <li><span>Preparation and organization of participation in sports competitions;</span></li>
-                        <li><span>Monitoring the condition and operation of existing sports facilities and premises, compliance with safety regulations, storage and proper use of sports uniforms, inventory and equipment;</span></li>
-                        <li><span>The implementation of training and education of students, taking into account the specifics of the subject being taught, ensuring proper order and discipline during classes;</span></li>
-                        <li><span>Compliance with the rules and norms of labor protection, safety and fire protection, ensuring the protection of life and health of students during the educational process;</span></li>
-                        <li><span>Maintaining training documentation;</span></li>
-                        <li><span>Participation in the work of the pedagogical council of the school and meetings;</span></li>
-                        <li><span>Keeping an electronic journal at school;</span></li>
+                        <li><span class="experience__text-manager">Design of the retail outlet</span></li>
+                        <li><span class="experience__text-manager">Concept of product display</span></li>
+                        <li><span class="experience__text-manager">Monitoring the placement and updating of advertising materials</span></li>
+                        <li><span class="experience__text-manager">Receiving goods</span></li>
+                        <li><span class="experience__text-manager">Contract arrangement</span></li>
+                        <li><span class="experience__text-manager">Processing incoming calls</span></li>
+                        <li><span class="experience__text-manager">Processing orders from the online store</span></li>
+                        <li><span class="experience__text-manager">Customer consultation</span></li>
+                        <li><span class="experience__text-manager">Cash register operation</span></li>
+                        <li><span class="experience__text-manager">Reports in Excel</span></li>
                     </ul>
                     <div class="experience__discr">
-                        <h3 class="experience__discr-item">Position: Boxing and kickboxing coach</h3>
-                        <h3 class="experience__discr-item">Individual entrepreneur/ St. Petersburg</h3>
-                        <h3 class="experience__discr-item">June 2018 — March 2020, 1 year 10 months</h3>
+                        <h3 class="experience__discr-item experience__teacher">Position: Physical Education Teacher and Physical Therapy Instructor</h3>
+                        <h3 class="experience__discr-item experience__teacher">Part-time work: Boxing and kickboxing coach</h3>
+                        <h3 class="experience__discr-item experience__teacher">State Educational Institution "Secondary School №2" / Orsha, Vitebsk Region</h3>
+                        <h3 class="experience__discr-item experience__teacher">Started working as a teacher in the 4th year from August 2014 to June 2018, a total of 3 years and 11 months.</h3>
+                        <h3 class="experience__discr-item experience__teacher">Web-site: <a href="https://sh2.goroo-orsha.by/"> secondary school №2</a></h3>
                     </div>
                     <ul class="experience__text">
-                        <li><span>Conducting group and individual lessons for children and adults in boxing and kickboxing;</span></li>
-                        <li><span>Presentation of theoretical and practical material on BST (basics of sports training) and the methodology of martial arts, checking and evaluating the level of training;</span></li>
-                        <li><span>Providing training group games and sparring;</span></li>
-                        <li><span>GPT (general physical training), gymnastics, strength training;</span></li>
-                        <li><span>Psychological preparation of athletes;</span></li>
-                    </ul>
-                    <div class="experience__discr">
-                        <h3 class="experience__discr-item">Position: Sales manager</h3>
-                        <h3 class="experience__discr-item">Tricolor TV/ St. Petersburg</h3>
-                        <h3 class="experience__discr-item">July 2020 - present, 2 years;</h3>
-                        <h3 class="experience__discr-item">Web-site:<a href="https://sh2.goroo-orsha.by/"> www.tricolor.tv</a></h3>
-                    </div>
-                    <ul class="experience__text">
-                        <li><span>Store preparation;</span></li>
-                        <li><span>Product display concept;</span></li>
-                        <li><span>Control over the placement and updating of promotional materials;</span></li>
-                        <li><span>Reception of goods;</span></li>
-                        <li><span>Drafting contracts with clients;</span></li>
-                        <li><span>Handling incoming calls;</span></li>
-                        <li><span>Online store order processing</span></li>
-                        <li><span>Counseling clients;</span></li>
-                        <li><span>Work with cash desk;</span></li>
-                        <li><span>Working with Microsoft Excel;</span></li>
+                        <li><span class="experience__text-teacher">Ensuring that students receive training that meets the requirements of the state educational standard</span></li>
+                        <li><span class="experience__text-teacher">Planning, developing, and organizing educational and extracurricular physical education activities</span></li>
+                        <li><span class="experience__text-teacher">Enrolling students in boxing and kickboxing programs</span></li>
+                        <li><span class="experience__text-teacher">Preparing and organizing participation in sports competitions</span></li>
+                        <li><span class="experience__text-teacher">Monitoring the condition and proper use of sports facilities and equipment, ensuring compliance with safety regulations</span></li>
+                        <li><span class="experience__text-teacher">Implementing student training and education, considering the subject being taught and maintaining discipline in class;</span></li>
+                        <li><span class="experience__text-teacher">Complying with rules and regulations regarding labor protection, safety, and fire protection</span></li>
+                        <li><span class="experience__text-teacher">Ensuring the safety of students during the educational process</span></li>
+                        <li><span class="experience__text-teacher">Participating in school pedagogical council meetings and discussions</span></li>
+                        <li><span class="experience__text-teacher">Maintaining an electronic record-keeping system at the school</span></li>
                     </ul>
                 </article>
                 <article id="projectszone" class="project">
@@ -170,7 +198,7 @@
                         <div class="certificates">
                             <ul class="certificates__inner">
                                 <li class="certificates__item">
-                                    <a class="certificates__web" href="https://itgid.info/certificate/view?Certificate%5Buid%5D=d7q61n77qn"><span>Course Completion Certificate JavaScript: v.2.0</span></a>
+                                    <a class="certificates__web" href="https://itgid.info/ru/certificate/view?Certificate[uid]=7ak8gbmszhjd"><span>Course Completion Certificate JavaScript: v.2.0</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -193,13 +221,13 @@
        'Finn': []}, ['Ben']); //, 'Megan');
                         </code>
                     </pre>
-                </article>
+                </article> -->
             </div>
         </main>
         <aside class="aside">
                 <div class="photo">
                         <div class="photo__png">
-                            <img class="photo__png-item" src="img/ph.png" alt="photo">
+                            <img class="photo__png-item" src="img/phc.png" alt="photo">
                         </div>
                 </div>
             <div class="aside__wraper">
@@ -214,9 +242,9 @@
                 <section id="language" class="language">
                     <h2 class="language__title">language</h2>
                     <ul class="language__list">
-                        <li class="language__item"><span>Russian</span></li>
-                        <li class="language__item"><span>Belorussian</span></li>
-                        <li class="language__item"><span>English: B1 Pre-Intermediate</span></li>
+                        <li class="language__item"><span class="language__item-span">Russian</span></li>
+                        <li class="language__item"><span class="language__item-span">Belorussian</span></li>
+                        <li class="language__item"><span class="language__item-span">English: B1-B2</span></li>
                     </ul>
                 </section>
                 <section id="skills" class="skills">
@@ -238,7 +266,7 @@
         </aside>
         </div>
     </div>
-    <footer class="footer">
+<!--     <footer class="footer">
         <div class="container footer__container">
             <div class="footer__git">
                 <p class="footer__date">© 2022</p>
@@ -247,11 +275,11 @@
                 </p>
             </div>
             <div class="footer__rsschool">
-                <a href="https://rs.school/js/">
-                    <img class="footer__rsschool-img" src="img/RsSchool.png" alt="RsSchool">
+                <a href="https://github.com/romanjhyltsou">
+                    <img class="footer__rsschool-img" src="img/github.png" alt="github">
                 </a>
             </div>
         </div>
-    </footer>
+    </footer> -->
 </body>
 </html>
