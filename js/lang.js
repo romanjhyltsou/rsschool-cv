@@ -2,6 +2,7 @@ import langArr from "../langOb.js";
 const lang = () => {
     const btnLan = document.querySelector('.btn-lan'),
           navMenuLink = document.querySelectorAll('.nav__menu-link'),
+          navMenuLinkMob = document.querySelectorAll('.nav__menu-link-mob'),
           name = document.querySelector('.main__title'),
           mainTitleProfession  = document.querySelector('.main__title-profession'),
           contactsAddressHome  = document.querySelector('.contacts__address-home a'),
@@ -13,7 +14,6 @@ const lang = () => {
           experienceTeacher = document.querySelectorAll('.experience__teacher'),
           experienceTextTeacher = document.querySelectorAll('.experience__text-teacher'),
           projectTitle = document.querySelector('.project__title'),
-          sampleCodeTitle = document.querySelector('.sample-code__title'),
           educationTitle = document.querySelector('.education__title'),
           languageTitle = document.querySelector('.language__title'),
           skillsTitle = document.querySelector('.skills__title'),
@@ -52,9 +52,14 @@ function lanTranslation(lanArrText, btnLanText, lanLetLow){
         btnLanText === 'EN' ? lanArrText.push(langArr[key][lanLetLow]) 
         : lanArrText.push(langArr[key][lanLetLow]);
     }
-    navMenuLink.forEach((item, i) => {
-        item.textContent = lanArrText[i];
-    });
+
+    function navNodeList(navNodeList){
+        navNodeList.forEach((item, i) => {
+            item.textContent = lanArrText[i];
+        });
+    }
+    navNodeList(navMenuLink);
+    navNodeList(navMenuLinkMob);
 
     if(btnLanText === 'EN'){
         name.innerHTML = `${langArr.name[lanLetLow]} <span>${langArr.surname[lanLetLow]}</span>`;
@@ -69,7 +74,6 @@ function lanTranslation(lanArrText, btnLanText, lanLetLow){
         experienceArr(experienceTeacher, langArr.experienceteacher[lanLetLow]);
         experienceArr(experienceTextTeacher, langArr.experienceteachertext[lanLetLow]);
         projectTitle.textContent = langArr.projectTitle[lanLetLow];
-        sampleCodeTitle.textContent = langArr.samplecodee[lanLetLow];
         educationTitle.textContent = langArr.education[lanLetLow];
         languageTitle.textContent = langArr.language[lanLetLow];
         skillsTitle.textContent = langArr.skills[lanLetLow];
@@ -89,7 +93,6 @@ function lanTranslation(lanArrText, btnLanText, lanLetLow){
         experienceArr(experienceTeacher, langArr.experienceteacher[lanLetLow]);
         experienceArr(experienceTextTeacher, langArr.experienceteachertext[lanLetLow]);
         projectTitle.textContent = langArr.projectTitle[lanLetLow];
-        sampleCodeTitle.textContent = langArr.samplecodee[lanLetLow];
         educationTitle.textContent = langArr.education[lanLetLow];
         languageTitle.textContent = langArr.language[lanLetLow];
         skillsTitle.textContent = langArr.skills[lanLetLow];

@@ -7,10 +7,6 @@ const langArr = {
     ru: "Опыт",
     en: "Experience",
   },
-  samplecode: {
-    ru: "ПримерКода",
-    en: "SampleCode",
-  },
   education: {
     ru: "Образование",
     en: "Education",

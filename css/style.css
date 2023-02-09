@@ -42,6 +42,7 @@ body {
     font-family: 'Montserrat-Regular';
     font-size: 14px;
     position: absolute;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,6 +52,11 @@ body {
     top:30px;
     transform:translate(-50%, -50%);
     color:#282828;
+}
+.nav-mob__close-img{
+    position: absolute;
+    left: 8px;
+    top: 8px;
 }
 .nav__menu-item:hover{
     font-family: 'Montserrat-Regular';
@@ -124,7 +130,7 @@ body {
 .contacts__address-home a::before{
     position: absolute;
     content: '';
-    left: -40px;
+    left: -41px;
     height: 14px;
     width: 15px;
 }
@@ -137,13 +143,11 @@ body {
 .contacts__address-home a::before{
     background-image: url('../img/icon/home.svg');
 }
-
-.experience .experience__text{
-    margin-bottom: 39px;
+.experience__manag-text{
+    margin-bottom: 30px;
 }
 .profile__title,
 .experience__title,
-.sample-code__title,
 .project__title{
     font-size: 22px;
     font-family: 'Poppins-Bold';
@@ -151,6 +155,7 @@ body {
     text-transform: uppercase;
     margin-top: 45px;
     margin-bottom: 28px;
+    cursor: pointer;
 }
 .experience__discr-item{
     font-size: 15px;
@@ -172,11 +177,6 @@ body {
 }
 .experience__discr-item a:hover{
     color:#f1cb59;
-}
-.sample-code pre{
-    background-color:#efeeea;
-    border-radius: 10px;
-    margin-bottom: 60px;
 }
 .project__wraper{
     display: flex;
@@ -290,23 +290,26 @@ body {
 .footer__github{
     margin-left: 10px;
 }
-.footer__rsschool-img{
+.footer__github-icon-img{
     width: 100px;
+}
+.github-icon__img{
+    width: 88px;
 }
 /* .footer  end*/
 
-.header__burger {
+.nav__menu-burger {
     width: 42px;
     margin-top: 5px;
 }
 
-.header__burger-line {
+.nav__menu-line {
     background: #f1cb59;
     border-radius: 4px;
     height: 3px;
     width: 27px;
     margin: 0px 0 4px;
 }
-  
+
   
   

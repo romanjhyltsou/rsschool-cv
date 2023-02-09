@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    <script src="js/main.js" type="module" defer></script>
+    <script src="js/main.js" type="module"></script>
     <script src="js/smothScroll.js" defer></script>
     <title>CV</title>
 </head>
@@ -27,9 +27,6 @@
                         <a class="nav__menu-link" href="#experience">Experience</a>
                     </li>
                     <li class="nav__menu-item">
-                        <a class="nav__menu-link" href="#sampleCode">SampleCode</a>
-                    </li>
-                    <li class="nav__menu-item">
                         <a class="nav__menu-link" href="#education">Education</a>
                     </li>
                     <li class="nav__menu-item">
@@ -41,37 +38,43 @@
                     <li class="nav__menu-item">
                         <a class="nav__menu-link" href="#projectszone">ProjectsZone</a>
                     </li>
-                    <ul class="header__burger">
-                        <li class="header__burger-line"></li>
-                        <li class="header__burger-line"></li>
-                        <li class="header__burger-line"></li>
-                        <ul class="nav__menu nav__menu-mob">
-<!--                             <li class="nav-mob__close">
-                                <img class="nav-mob__close-img" src="img/icon/close-mob-nav.svg" alt="close">
-                            </li> -->
-                            <li class="nav__menu-item nav__item-mob">
-                                <a href="#profile">aboutMe</a>
-                            </li>
-                            <li class="nav__menu-item nav__item-mob">
-                                <a href="#experience">Experience</a>
-                            </li>
-                            <li class="nav__menu-item nav__item-mob">
-                                <a href="#sampleCode">SampleCode</a>
-                            </li>
-                            <li class="nav__menu-item nav__item-mob">
-                                <a href="#education">Education</a>
-                            </li>
-                            <li  class="nav__menu-item nav__item-mob">
-                                <a href="#language">languages</a>
-                            </li>
-                            <li class="nav__menu-item nav__item-mob">
-                                <a href="#skills">Skills</a>
-                            </li>
-                            <li class="nav__menu-item nav__item-mob">
-                                <a href="#projectszone">ProjectsZone</a>
+                    <li>
+                        <ul class="nav__menu-burger">
+                            <li class="nav__menu-line"></li>
+                            <li class="nav__menu-line"></li>
+                            <li class="nav__menu-line"></li>
+                            <li>
+                                <ul class="nav__menu nav__menu-mob">
+                                    <li class="nav-mob__close">
+                                        <img class="nav-mob__close-img" src="img/icon/close.svg" alt="close">
+                                    </li>
+                                    <li class="nav__menu-item nav__item-mob">
+                                        <a class="nav__menu-link-mob" href="#profile">aboutMe</a>
+                                    </li>
+                                    <li class="nav__menu-item nav__item-mob">
+                                        <a class="nav__menu-link-mob" href="#experience">Experience</a>
+                                    </li>
+                                    <li class="nav__menu-item nav__item-mob">
+                                        <a class="nav__menu-link-mob" href="#education">Education</a>
+                                    </li>
+                                    <li  class="nav__menu-item nav__item-mob">
+                                        <a class="nav__menu-link-mob" href="#language">languages</a>
+                                    </li>
+                                    <li class="nav__menu-item nav__item-mob">
+                                        <a class="nav__menu-link-mob" href="#skills">Skills</a>
+                                    </li>
+                                    <li class="nav__menu-item nav__item-mob">
+                                        <a class="nav__menu-link-mob" href="#projectszone">ProjectsZone</a>
+                                    </li>
+                                    <li class="github-icon">
+                                        <a href="https://github.com/romanjhyltsou">
+                                            <img class="github-icon__img" src="img/github.png" alt="github">
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
-                    </ul>
+                    </li>
                 </ul>
 
             </div>
@@ -102,7 +105,7 @@
                     </div>
                 </address>
                 <article id="profile" class="profile">
-                    <h2 class="profile__title">ABOUT ME</h2>
+                        <h2 class="profile__title profile__title-about">about me</h2>
                     <p class="profile__text">
                         Hello! My journey in IT started with web design, as 
                         I had previously been interested in photoshop CS6 and had a good level of knowledge of it, 
@@ -124,15 +127,15 @@
                            skilled front-end developer and eventually a full-stack developer.</b>
                     </p>
                 </article>
-                <!-- <article id="experience" class="experience">
-                    <h2 class="experience__title">experience</h2>
+                <article id="experience" class="experience">
+                        <h2 class="experience__title">experience</h2>
                     <div class="experience__discr">
                         <h3 class="experience__discr-item experience__manag">Position: Sales manager</h3>
                         <h3 class="experience__discr-item experience__manag">Tricolor TV/ St. Petersburg</h3>
                         <h3 class="experience__discr-item experience__manag">June 2018 - July 2020, 2 years</h3>
                         <h3 class="experience__discr-item experience__manag">Web-site: <a href="https://sh2.goroo-orsha.by/"> www.tricolor.tv</a></h3>
                     </div>
-                    <ul class="experience__text">
+                    <ul class="experience__text experience__manag-text">
                         <li><span class="experience__text-manager">Design of the retail outlet</span></li>
                         <li><span class="experience__text-manager">Concept of product display</span></li>
                         <li><span class="experience__text-manager">Monitoring the placement and updating of advertising materials</span></li>
@@ -165,7 +168,7 @@
                     </ul>
                 </article>
                 <article id="projectszone" class="project">
-                    <h2 class="project__title">my projects and certificates</h2>
+                        <h2 class="project__title">my projects and certificates</h2>
                     <div class="project__wraper">
                         <div class="projects">
                             <ul class="projects__inner">
@@ -198,30 +201,12 @@
                         <div class="certificates">
                             <ul class="certificates__inner">
                                 <li class="certificates__item">
-                                    <a class="certificates__web" href="https://itgid.info/ru/certificate/view?Certificate[uid]=7ak8gbmszhjd"><span>Course Completion Certificate JavaScript: v.2.0</span></a>
+                                    <a class="certificates__web" href="#"><span>Course Completion Certificate JavaScript: v.2.0</span></a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </article>
-                <article id="sampleCode" class="sample-code">
-                    <h2 class="sample-code__title">sample code</h2>
-                    <pre>
-                        <code>
-       function killer (suspectInfo, dead) {
-           if(dead.every(item = suspectInfo[key].includes(item))){
-               return key;
-           }
-       }
-       killer({'James': ['Jacob', 'Bill', 'Lucas'],
-       'Johnny': ['David', 'Kyle', 'Lucas'],
-       'Peter': ['Lucy', 'Kyle']},
-       ['Lucas', 'Bill']); //, 'James');
-       killer({'Brad': [], 'Megan': ['Ben', 'Kevin'],
-       'Finn': []}, ['Ben']); //, 'Megan');
-                        </code>
-                    </pre>
-                </article> -->
             </div>
         </main>
         <aside class="aside">
@@ -266,7 +251,7 @@
         </aside>
         </div>
     </div>
-<!--     <footer class="footer">
+    <footer class="footer">
         <div class="container footer__container">
             <div class="footer__git">
                 <p class="footer__date">© 2022</p>
@@ -274,12 +259,12 @@
                     <a href="https://github.com/romanjhyltsou">romanjhyltsou</a>
                 </p>
             </div>
-            <div class="footer__rsschool">
+            <div class="footer__github-icon">
                 <a href="https://github.com/romanjhyltsou">
-                    <img class="footer__rsschool-img" src="img/github.png" alt="github">
+                    <img class="footer__github-icon-img" src="img/github.png" alt="github">
                 </a>
             </div>
         </div>
-    </footer> -->
+    </footer>
 </body>
 </html>
