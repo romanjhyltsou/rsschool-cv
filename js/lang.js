@@ -19,10 +19,7 @@ const lang = () => {
           skillsTitle = document.querySelector('.skills__title'),
           educationDiscrItem = document.querySelectorAll('.education__discr-item'),
           languageItem = document.querySelectorAll('.language__item-span');
-          
-          
-          
-          
+               
           
 location.hash  = 'en';
 
