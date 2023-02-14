@@ -53,6 +53,12 @@
 }
 }
 
+@media (max-width:826px) {
+    .main__certificates-inner{
+        margin: 0 10px;
+    }
+}
+
 @media (max-width:803px) {
     .nav__menu{
        max-width: 700px;
@@ -172,6 +178,9 @@
     .certificates {
         font-size: 12px;
     }
+    .header__title {
+        font-size: 18px;
+    }
 }
 @media (max-width:606px) {
     .main {
@@ -256,6 +265,13 @@
     .footer__git {
         font-size: 10px;
     }
+    .header__title {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    .main__certificates-link {
+        font-size: 14px;
+    }
 }
 
 @media (max-width:472px) {
@@ -294,7 +310,7 @@
     .profile__title, 
     .experience__title,  
     .project__title {
-        margin-top: 22px;
+        margin-top: 12px;
     }
     .education__discr-item,
     .experience__discr-item,
@@ -304,6 +320,13 @@
     }
     .main__title-profession {
         font-size: 9px;
+    }
+    .main__certificates-link {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .main__certificates-img {
+        margin-bottom: 10px;
     }
 }
 @media (max-width:388px) {
@@ -316,6 +339,9 @@
     }
     .main__title-profession {
         font-size: 8px;
+    }
+    .main__certificates-link {
+        font-size: 10px;
     }
 }
 @media (max-width:370px) {

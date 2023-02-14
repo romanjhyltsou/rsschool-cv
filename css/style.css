@@ -155,7 +155,6 @@ body {
     text-transform: uppercase;
     margin-top: 45px;
     margin-bottom: 28px;
-    cursor: pointer;
 }
 .experience__discr-item{
     font-size: 15px;
@@ -311,5 +310,34 @@ body {
     margin: 0px 0 4px;
 }
 
-  
+/* start certificates page*/
+.header__title{
+    font-size: 22px;
+    font-family: 'Poppins-Bold';
+    color: rgb(241, 203, 89);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 28px;
+}
+.main__certificates-item{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main__certificates-link{
+    display: block;
+    font-size: 16px;
+    font-family: 'Roboto-Regular';
+    text-transform: uppercase;
+    color: rgb(37, 37, 37);
+    margin-bottom: 20px;
+}
+.main__certificates-img {
+    display: block;
+    border: 1px solid rgb(241, 203, 89);
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
   
