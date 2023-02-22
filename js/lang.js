@@ -12,7 +12,9 @@ const lang = () => {
           experienceManag = document.querySelectorAll('.experience__manag'),
           experienceTextManag = document.querySelectorAll('.experience__text-manager'),
           experienceTeacher = document.querySelectorAll('.experience__teacher'),
+          experienceCreator = document.querySelectorAll('.experience__creator'),
           experienceTextTeacher = document.querySelectorAll('.experience__text-teacher'),
+          experienceTextCreator = document.querySelectorAll('.experience__text-creator'),
           projectTitle = document.querySelector('.project__title'),
           educationTitle = document.querySelector('.education__title'),
           languageTitle = document.querySelector('.language__title'),
@@ -20,7 +22,6 @@ const lang = () => {
           educationDiscrItem = document.querySelectorAll('.education__discr-item'),
           languageItem = document.querySelectorAll('.language__item-span');
                
-          
 location.hash  = 'en';
 
 btnLan.addEventListener('click', ()=> {
@@ -69,14 +70,15 @@ function lanTranslation(lanArrText, btnLanText, lanLetLow){
         experienceArr(experienceManag, langArr.experiencemanager[lanLetLow]);
         experienceArr(experienceTextManag, langArr.experiencemanagertext[lanLetLow]);
         experienceArr(experienceTeacher, langArr.experienceteacher[lanLetLow]);
+        experienceArr(experienceCreator, langArr.experiencecreator[lanLetLow]);
         experienceArr(experienceTextTeacher, langArr.experienceteachertext[lanLetLow]);
+        experienceArr(experienceTextCreator, langArr.experiencecreatortext[lanLetLow]);
         projectTitle.textContent = langArr.projectTitle[lanLetLow];
         educationTitle.textContent = langArr.education[lanLetLow];
         languageTitle.textContent = langArr.language[lanLetLow];
         skillsTitle.textContent = langArr.skills[lanLetLow];
         experienceArr(educationDiscrItem, langArr.educationarr[lanLetLow]);
         experienceArr(languageItem, langArr.languageitemarr[lanLetLow]);
-        
     }else{
         name.innerHTML = `${langArr.name[lanLetLow]} <span>${langArr.surname[lanLetLow]}</span>`;
         mainTitleProfession.textContent = langArr.web[lanLetLow];
