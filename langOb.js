@@ -65,9 +65,17 @@ const langArr = {
     ru: `Моя главная цель — стать опытным разработчиком интерфейса и, в конечном итоге, full stack разработчиком.`,
     en: `My current primary goal and aspiration is to become a skilled front-end developer and eventually a full-stack developer.`
   },
+  experiencecreator: {
+    ru:['Должность: Front-end разработчик, HTML-верстальщик', 'Web-creator','C июля 2020 года по настоящее время'],
+    en: ['Position: Front-end developer, HTML coder', 'Web-creator','from July 2020 to the present time'] 
+  },  
+  experiencecreatortext: {
+    ru:['Разработка, отладка и поддержка веб-приложений и сайтов','Создание и использование HTML, CSS и JavaScript для создания интерфейсов','Адаптивная верстка','Сотрудничество с другими разработчиками и дизайнерами в рамках команды','Решение проблем, связанных с производительностью и совместимостью','Участие в процессе ревью кода и внедрения правок','Работа с системами управления версиями, такими как Git','Решение проблем, связанных с кросс-браузерной совместимостью','Работа с api','Обучение и развитие навыков в области front-end разработки'],
+    en: ["Development, debugging, and maintenance of websites","Creation and use of HTML, CSS, and JavaScript to create interfaces","Adaptive layout","Collaboration with other developers and designers within a team","Resolution of performance and compatibility issues","Participation in code reviews and implementation of changes","Working with version control systems such as Git","Resolution of cross-browser compatibility issues","Working with API","Learning and developing skills in the field of front-end development"]
+  },
   experiencemanager: {
-    ru:['Должность: Менеджер по продажам', 'Триколор ТВ" / Санкт-Петербург','Июнь 2018 - Июль 2020, 2 года.', `Веб-сайт: <a href="https://sh2.goroo-orsha.by/"> www.tricolor.tv</a>`],
-    en: ['Position: Sales manager', 'Tricolor TV/ St. Petersburg','June 2018 - July 2020, 2 years',`Web-site: <a href="https://sh2.goroo-orsha.by/"> www.tricolor.tv</a>`] 
+    ru:['Должность: Менеджер по продажам', 'Триколор ТВ" / Санкт-Петербург','Июнь 2018 - июль 2020, 2 года.', `Веб-сайт: <a href="https://sh2.goroo-orsha.by/"> www.tricolor.tv</a>`],
+    en: ['Position: Sales manager', 'Tricolor TV/ St. Petersburg','June 2018 - july 2020, 2 years',`Web-site: <a href="https://sh2.goroo-orsha.by/"> www.tricolor.tv</a>`] 
   },  
   experiencemanagertext: {
     ru:["Оформление торговой точки","Концепция выкладки товаров","Контроль за размещением и обновлением рекламных материалов","Приём товара","Оформление договоров","Обработка входящих звонков","Обработка заказов интернет магазина","Консультация клиентов","Работа с кассой","Отчёты в Excel"],
@@ -90,8 +98,8 @@ const langArr = {
     en: "Sample Code",
   },
   educationarr: {
-    ru: ["Витебский государственный университет имени Машерова","2010 - 2015 (период обучения 5 лет)","Учитель физической культуры и тренер, инструктор по физиотерапии"],
-    en:["Vitebsk State University named after Masherov","2010 - 2015(study period 5 years)","Physical education teacher and sports coach ,physical therapy instructor"],
+    ru: ["Витебский государственный университет имени Машерова","2010 - 2015 (период обучения 5 лет)"],
+    en:["Vitebsk State University named after Masherov","2010 - 2015(study period 5 years)"],
   },
   languageitemarr: {
     ru:["Русский","Белорусский","Английский: B1 - B2"],

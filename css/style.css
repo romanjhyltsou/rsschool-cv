@@ -143,7 +143,8 @@ body {
 .contacts__address-home a::before{
     background-image: url('../img/icon/home.svg');
 }
-.experience__manag-text{
+.experience__manag-text, 
+.experience__creator-text{
     margin-bottom: 30px;
 }
 .profile__title,
