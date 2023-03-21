@@ -102,8 +102,8 @@ const langArr = {
     en:["Vitebsk State University named after Masherov","2010 - 2015(study period 5 years)"],
   },
   languageitemarr: {
-    ru:["Русский","Белорусский","Английский: B1 - B2"],
-    en:["Russian","Belorussian","English: B1 Pre-Intermediate"],
+    ru:["Русский","Английский: B1 Pre-Intermediate"],
+    en:["Russian","English: B1 Pre-Intermediate"],
   },
 };
 
