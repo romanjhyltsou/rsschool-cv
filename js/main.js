@@ -5,4 +5,5 @@ window.addEventListener('DOMContentLoaded', () => {
     "use strict";
     lang();
     nav();
+
 });
