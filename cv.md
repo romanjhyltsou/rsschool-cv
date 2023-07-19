@@ -3,15 +3,11 @@
 
 ![Фото](img/photo.jpeg)
 
-###### Male, 30 years old, born July 10, 1991
+###### Male, 30 years old
 
-**Phone:** 89819718390
+**Phone:** 8(999)8887766
 
-**e-mail:** romanjhyltsou@gmail.com
-
-**discord:** romanjhyltsou#6635
-
-**Skype:** Saimon1775
+**e-mail:** fakeMail@gmail.com
 
 
 ## Higher education
