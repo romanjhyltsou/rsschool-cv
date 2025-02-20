@@ -38,7 +38,7 @@ Later, I decided to focus on interface development and completed courses in HTML
 
 I enjoy finding unconventional solutions to challenging problems, working in a team, building effective communication with colleagues, and quickly adapting to new technologies.* 
 
-**My goal is to become a strong front-end developer and eventually grow into full-stack development.**
+**My goal is to become a professional interface developer and to eventually move towards full-stack development.**
 
 Development, debugging, and maintenance of web applications and websites
 Creating and using HTML, CSS, and JavaScript to build interfaces
