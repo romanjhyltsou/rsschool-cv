@@ -9,12 +9,8 @@ const lang = () => {
           profileTitle = document.querySelector('.profile__title'),
           profileText = document.querySelector('.profile__text'),
           experienceTitle = document.querySelector('.experience__title'),
-          experienceManag = document.querySelectorAll('.experience__manag'),
-          experienceTextManag = document.querySelectorAll('.experience__text-manager'),
-          experienceTeacher = document.querySelectorAll('.experience__teacher'),
           experienceCreator = document.querySelectorAll('.experience__creator'),
-          experienceTextTeacher = document.querySelectorAll('.experience__text-teacher'),
-          experienceTextCreator = document.querySelectorAll('.experience__text-creator'),
+          experienceCreatorText = document.querySelectorAll('.experience__text-creator'),
           projectTitle = document.querySelector('.project__title'),
           educationTitle = document.querySelector('.education__title'),
           languageTitle = document.querySelector('.language__title'),
@@ -67,12 +63,12 @@ function lanTranslation(lanArrText, btnLanText, lanLetLow){
         profileText.innerHTML = langArr.aboutmetext[lanLetLow] +
         `<b >${langArr.aboutmetextgoal[lanLetLow]}</b>`;
         experienceTitle.textContent = langArr.experience[lanLetLow];
-        experienceArr(experienceManag, langArr.experiencemanager[lanLetLow]);
-        experienceArr(experienceTextManag, langArr.experiencemanagertext[lanLetLow]);
-        experienceArr(experienceTeacher, langArr.experienceteacher[lanLetLow]);
         experienceArr(experienceCreator, langArr.experiencecreator[lanLetLow]);
-        experienceArr(experienceTextTeacher, langArr.experienceteachertext[lanLetLow]);
-        experienceArr(experienceTextCreator, langArr.experiencecreatortext[lanLetLow]);
+
+        console.log(lanLetLow)
+        console.log(langArr.experiencecreatortext)
+        experienceArr(experienceCreatorText, langArr.experiencecreatortext[lanLetLow])
+
         projectTitle.textContent = langArr.projectTitle[lanLetLow];
         educationTitle.textContent = langArr.education[lanLetLow];
         languageTitle.textContent = langArr.language[lanLetLow];
@@ -87,14 +83,12 @@ function lanTranslation(lanArrText, btnLanText, lanLetLow){
         profileText.innerHTML = langArr.aboutmetext[lanLetLow] +
         `<b >${langArr.aboutmetextgoal[lanLetLow]}</b>`;
         experienceTitle.textContent = langArr.experience[lanLetLow];
-        experienceArr(experienceManag, langArr.experiencemanager[lanLetLow]);
-        experienceArr(experienceTextManag, langArr.experiencemanagertext[lanLetLow]);
-        experienceArr(experienceTeacher, langArr.experienceteacher[lanLetLow]);
-        experienceArr(experienceTextTeacher, langArr.experienceteachertext[lanLetLow]);
         projectTitle.textContent = langArr.projectTitle[lanLetLow];
         educationTitle.textContent = langArr.education[lanLetLow];
         languageTitle.textContent = langArr.language[lanLetLow];
         skillsTitle.textContent = langArr.skills[lanLetLow];
+        experienceArr(experienceCreator, langArr.experiencecreator[lanLetLow]);
+        experienceArr(experienceCreatorText, langArr.experiencecreatortext[lanLetLow])
         experienceArr(educationDiscrItem, langArr.educationarr[lanLetLow]);
         experienceArr(languageItem, langArr.languageitemarr[lanLetLow]);
     }
